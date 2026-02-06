@@ -1,0 +1,38 @@
+[
+  {
+    "username": "trushali",
+    "password": "123",
+    "usertype": "student",
+    "isLogin": true
+  },
+  {
+    "username": "jeni",
+    "password": "123",
+    "usertype": "student",
+    "isLogin": true
+  },
+  {
+    "username": "admin",
+    "password": "123",
+    "usertype": "administrator",
+    "isLogin": true
+  },
+  {
+    "username": "moderator",
+    "password": "123",
+    "usertype": "moderator",
+    "isLogin": true
+  },
+  {
+    "username": "user1",
+    "password": "123",
+    "usertype": "student",
+    "isLogin": true
+  },
+  {
+    "username": "user2",
+    "password": "123",
+    "usertype": "student",
+    "isLogin": true
+  }
+]
