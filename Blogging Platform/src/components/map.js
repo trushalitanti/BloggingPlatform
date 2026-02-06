@@ -75,7 +75,7 @@ async function getConcerts(city) {
           location_requested: city,
           gl: "us",
           hl: "en",
-          api_key: "6b57ca2643076036fe0b562f9b753da952f984a6ad194472ba909cb481dc2aad"
+          api_key: "YOUR_SERP_API_KEY"
       }, (json) => {
           // Process the JSON data here if needed
           resolve(json["events_results"]); // Resolve the promise with the desired value
@@ -94,7 +94,7 @@ async function getConcerts(city) {
           location_requested: city,
           gl: "us",
           hl: "en",
-          api_key: "6b57ca2643076036fe0b562f9b753da952f984a6ad194472ba909cb481dc2aad"
+          api_key: "YOUR_SERP_API_KEY"
       }, (json) => {
           // Process the JSON data here if needed
           const result = json['local_results'];
@@ -124,7 +124,7 @@ async function getConcerts(city) {
           location_requested: city,
           gl: "us",
           hl: "en",
-          api_key: "6b57ca2643076036fe0b562f9b753da952f984a6ad194472ba909cb481dc2aad"
+          api_key: "YOUR_SERP_API_KEY"
       }, (json) => {
           // Process the JSON data here if needed
           resolve(json["events_results"]); // Resolve the promise with the desired value
